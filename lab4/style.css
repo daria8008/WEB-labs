@@ -1,0 +1,25 @@
+#cooking, .films{
+    cursor: pointer;
+}
+.change1{
+    background: #971eb0;
+    color: rgb(255, 255, 255);
+}
+.visibility{
+    display: none;
+}
+.visible{
+    display: block;
+}
+.change2{
+    background: #10a254;
+    color: rgb(255, 255, 255);
+}
+
+.big{
+    width: 1000px;
+}
+
+.small{
+    width: 400px;
+}

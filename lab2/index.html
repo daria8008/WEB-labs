@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="positions.css">
+    <link rel="stylesheet" href="transform.css">
+    <title>Шаховська Дар'я ІП-91</title>
+    <style>
+        body{ font-size: 20px;}
+        table {background: black; width: 100%;}
+        td {background: white;}
+        #sth, #lastname, #name, #patronymic{ width: 25%;}
+        .first td{
+            background-color: #608f8f;
+            color: white;
+        }
+        .first td:hover{
+            transition: 1s;
+            background-color: #f5f560;
+            color: black;
+        }
+        .second td{
+            background-color: #f5f560;
+        }
+        .second td:hover{
+            transition: 1s;
+            background-color: #608f8f;
+            color: white;
+        }
+        .third td{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr class="first">
+            <div id="sth">
+                <td></td>
+                <td></td>
+            </div>
+            <td colspan="2" rowspan="2" id="lastname">Шаховська</td>
+            <td colspan="2" id="name">Дар'я</td>
+            <td colspan="2" rowspan="2"  id="patronymic">Олександрівна</td>
+        </tr>
+        <tr class="second">
+            <td colspan="2">ІП-91 ЛР2</td>
+            <td colspan="2">60 варіант</td>
+        </tr>
+        <tr class="third">
+            <td colspan="2">1</td>
+            <td colspan="6">2</td>
+        </tr>
+    </table>
+    <div class="flex">
+        <div class="grey">
+            <div id="white-small-1"></div>
+            <div id="white-small-2"></div>
+            <div id="white-small-3"></div>
+            <div id="white-small-4"></div>
+            <div id="white-small-5"></div>
+            <div id="white-small-6"></div>
+            <div id="white-small-7"></div>
+            <div id="white-small-8"></div>
+            <div id="white"></div>
+        </div>
+        <div class="greyer">
+            <div class="white small-1"></div>
+            <div class="white small-2"></div>
+            <div class="white small-3"></div>
+            <div class="white small-4"></div>
+            <div class="white small-5"></div>
+            <div class="white small-6"></div>
+            <div class="white small-7"></div>
+            <div class="white small-8"></div>
+            <div class="whiter"></div>
+        </div>
+    </div>
+</body>
+</html>

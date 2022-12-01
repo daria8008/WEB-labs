@@ -1,0 +1,98 @@
+.grey{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: #a8a8a8;
+    margin: 0 auto;
+}
+
+#white{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    left: 150px;
+    top: 150px;
+}
+
+#white-small-1{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    left: 25px;
+    top: 10px;
+}
+
+#white-small-2{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    left: 385px;
+    top: 20px;
+}
+
+#white-small-3{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    left: 200px;
+    top: 440px;
+}
+
+#white-small-4{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    left: 200px;
+    top: -50px;
+}
+
+#white-small-5{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    left: -45px;
+    top: 185px;
+}
+
+#white-small-6{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    left: 5px;
+    top: 370px;
+}
+
+#white-small-7{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    left: 450px;
+    top: 200px;
+}
+
+#white-small-8{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    left: 390px;
+    top: 370px;
+}

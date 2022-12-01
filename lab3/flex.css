@@ -1,0 +1,54 @@
+body{
+    margin: 3% auto;
+}
+.wrapper{
+    width: 70%;
+    height: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+.big-1{
+    padding-top: 80% ;
+}
+.big-2{
+    padding-top: 30%;
+}
+.green{
+    width: 30%;
+    height: 500px;
+    border: 1px solid #6ca64c;
+    background: #6ca64c;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.blue{
+    height: 50px;
+    border: 1px solid #6ecbce;
+    background: #6ecbce;
+}
+.yellow{
+    height: 448px;
+    border: 1px solid #cecc6e;
+    background: #cecc6e;
+}
+.right{
+    width: 70%;
+}
+.beige{
+    width: 70%;
+    height: 50px;
+    border: 1px solid #d5b49a;
+    background: #d5b49a;
+}
+
+.pink{
+    width: 30%;
+    height: 50px;
+    border: 1px solid #ff73da;
+    background: #ff73da;
+}
+
+.flex1, .flex2{
+    display: flex;
+}
